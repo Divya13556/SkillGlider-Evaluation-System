@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillGlider Evaluation System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1> SkillGlider Evaluation System</h1>
+
+        <input type="text" id="participant" placeholder="Participant Name">
+
+        <input type="number" id="innovation" placeholder="Innovation (0-10)">
+        <input type="number" id="technical" placeholder="Technical Skill (0-10)">
+        <input type="number" id="uiux" placeholder="UI/UX (0-10)">
+        <input type="number" id="impact" placeholder="Impact (0-10)">
+        <input type="number" id="feasibility" placeholder="Feasibility (0-10)">
+        <input type="number" id="presentation" placeholder="Presentation (0-10)">
+        <input type="number" id="completeness" placeholder="Completeness (0-10)">
+
+        <button onclick="calculateScore()">
+            Calculate Score
+        </button>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
