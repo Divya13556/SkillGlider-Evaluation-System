@@ -65,7 +65,7 @@ SkillGlider-Evaluation-System/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/SkillGlider-Evaluation-System.git
+git clone https://github.com/Divya13556/SkillGlider-Evaluation-System.git
 
 cd SkillGlider-Evaluation-System
 ```
